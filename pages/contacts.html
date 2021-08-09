@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Foreign Languages Department</title>
+</head>
+
+<body>
+   
+    <header>
+        <a href="../index.html">
+            Foreign Languages Department <i class="fas fa-flag-usa"></i>
+            
+            
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+    
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="../index.html"> Home</a>
+            <a href="members.html">Members</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="projects.html">Projects</a>
+            <a href="contacts.html"><i class="fas fa-phone"></i></a>
+        </aside>
+        <main>
+            <h2 class="title">Contacts</h2>
+            <div align="right">
+                <img class="contacts" src="../images/com.jpg">
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <h3>Call anytime if:</h3>
+                    <ul class="contact-list">
+                        <li>You want some information!</li>
+                        <li>You are looking for a new position!</li>
+                        <li>You want some partnership!</li>
+                        <li>You have any suggestions!</li>
+                    </ul>
+                </div>
+
+                <div class="col-50">
+                    <h3>Contact Data:</h3>
+                    <ul class="contact-data">
+                        <li><b>Program: </b>8.00 - 17.00</li>
+                        <li><b>Phone: </b>+373060334652</li>
+                        <li><b>Web-site: <a target="_blank" href="http://prometeu.md/"> „Prometeu-Prim”</a></b></li>
+                        <li><b> Address: </b> Chisinau, Nicolae Iorga 2 </li>
+                        <iframe width="250" height="100" allow="geolocation" width=600 height=550 frameborder="5"
+                            src="https://map.md/ru/places/112027/301776?embed=1#13.9/47.02044498110001/28.821467757200026/0/0"> </iframe>
+                    </ul>
+                </div>
+            </div>
+            <p><b>
+                If you want to become a part of this amazing team or you are just looking for a new position, please
+                fill in the form below and we will contact you as soon as possible.</b>
+            </p>
+            <h2 align="center">Registration Form:</h2>
+            <form class="form" autocomplete="off">
+                <label for="nume">Name/Surname:</label>
+                <input type="text" id="nume" placeholder="introduce your name*" minlength="10" maxlength="15" size="5"
+                    required />
+                <br /> <br />
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="introduce email address*" required />
+                <br /><br />
+                <label for="parola"> Password</label>
+                <input type="password" id="parola" placeholder="introduce password" />
+                <br /><br />
+                <label for="telefon"> Phone Number</label>
+                <input type="telefon" id="phone" placeholder="introduce phone number" />
+                <br /><br />
+                <label for="data nasterii">Birth date</label>
+                <input type="date" id="the date of birthday" />
+                <br /> <br />
+                <label for="localitate"> City</label>
+                <select id="location">
+                    <option selected>Chisinau</option>
+                    <option>Balti</option>
+                    <option>Cahul</option>
+                    <option>Bender</option>
+                    <option>Edinet</option>
+                    <option>Leova</option>
+                </select>
+                <br /> <br />
+                <label for="studii">Studies/Didactic Degree</label>
+                <input type="studii" id="studii" placeholder="write about studies/degrees*" required />
+                <br /> <br />
+                <label for="experienta">Previous Experience</label>
+                <input type="email" id="experienta" placeholder="write about your previous jobs*" required />
+                <br /><br />
+                <label for="masculin">M</label>
+                <input type="radio" id="masculin" name="gender" />
+                <label for="feminin">F</label>
+                <input type="radio" id="feminin" name="gender" checked />
+                <br /><br />
+                <label for="reguli">Agree</label>
+                <input type="checkbox" id="rules*" required />
+                <br /><br />
+                <input type="Submit" value="Submit" />
+
+            </form>
+
+        </main>
+    </div>
+    <footer> 
+        <span id="data"></span>  <p>
+            2021 © All rights reserved. LCI „Prometeu-Prim”, FLD.
+        </p>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
